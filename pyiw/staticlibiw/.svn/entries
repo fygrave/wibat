@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="12750"
+   name=""
+   committed-date="2006-09-18T20:29:02.506230Z"
+   url="svn+ssh://quad/svnroot/pyiw/trunk/staticlibiw"
+   last-author="jeremy"
+   kind="dir"
+   uuid="d1a300b8-8bd9-0310-85e3-8cce2774fffc"
+   repos="svn+ssh://quad/svnroot"
+   revision="13018"/>
+<entry
+   committed-rev="12447"
+   name="wireless.h"
+   text-time="2006-09-18T20:28:32.000000Z"
+   committed-date="2006-07-11T21:34:26.240375Z"
+   checksum="bee3cc2473195fb94ea61af3e04d919a"
+   last-author="jeremy"
+   kind="file"
+   prop-time="2006-03-29T15:32:07.000000Z"/>
+<entry
+   committed-rev="12750"
+   name="libiw.a"
+   text-time="2006-09-18T20:27:53.000000Z"
+   committed-date="2006-09-18T20:29:02.506230Z"
+   checksum="d79e8fc1988e1ea22d1b0bc82b92659f"
+   last-author="jeremy"
+   kind="file"
+   prop-time="2006-03-29T15:32:08.000000Z"/>
+<entry
+   committed-rev="12447"
+   name="iwlib.h"
+   text-time="2006-09-18T20:28:30.000000Z"
+   committed-date="2006-07-11T21:34:26.240375Z"
+   checksum="2d208ec5c28543087c558ab0fb660dd2"
+   last-author="jeremy"
+   kind="file"
+   prop-time="2006-03-29T15:32:08.000000Z"/>
+</wc-entries>

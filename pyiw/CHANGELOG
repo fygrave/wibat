@@ -1,0 +1,52 @@
+Version 0.3.3:
+	- Looks like I forgot to actually add the codestuffs for CHANNEL and
+	  MODE. I've added CHANNEL support for now (thanks to Robert Berger),
+	  but I really need to revist this entire module. It's been more than
+	  a year, I'm a much better coder now, and there's lots of room for
+	  improvement. *sigh*
+	- Added more TODO stuff in the source file.
+	- Fixed a bug in where packaged 0.3.2 was reporting itself as 0.3.1.
+	- We're using version 29 of iwlib (if you build statically), which
+	  supports WE21.
+	- Small changes to the test script.
+
+Version 0.3.2:
+	- Ooops! I was using IFNAMSIZ as the maximum value of an ESSID, when
+	  I should have been just using the max buffer size. Thanks to 
+	  Oliver Thuns for the heads up.
+	- Upgraded to a beta'ish version of LIBIW.
+
+Version 0.3.1:
+	- Added a LICENSE file; LGPL.
+
+Version 0.3.0:
+	- Add support for WirelessExtensions 20 method of detecting whether
+	  WPA is on a scan result or not (using IWEVGENIE).
+	- Still need to change to attribute access rather than dictionary
+	  access.
+
+Version 0.2.2:
+	- Removal of ETHTOOL includes and testing code.
+
+Version 0.2.1:
+	- "make static", er, uh, works right now.
+
+Version 0.2.0:
+	- Oops; made it so that the interface refeshes itself when you retrieve
+	  values from the dict. This was a biggy, so I bumped to 0.2.0.
+	- Added some experimental (commented out) code for using ETHTOOL and
+	  getting the currently assigned IP address.
+
+Version 0.1.2:
+	- Fixed a silly bug w/ PyArg_ParseTuple and ->ifname.
+	- Added a function to report the version of WE libiw is using.
+	- Made the version stuff behave correctly.
+	- Somewhat better error-handling; things throw sensible exceptions now.
+
+Version 0.1.1:
+	- Made _init bring the network interface up before operating on it.
+	  This is particularly useful for Atheros cards, who need this in
+	  a bad way.
+
+Version 0.1.0:
+	- First semi-psuedo-official release.

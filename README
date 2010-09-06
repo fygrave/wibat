@@ -1,0 +1,42 @@
+Wireless Burglary Automation Toolkit (wibat) :)
+
+
+The motivation behind this project was pretty practical: to take over a wireless network quick. (handy)
+
+Uses Dependencies:
+------------
+
+Modified version of pyiw http://downloads.emperorlinux.com/contrib/pyiw
+pywpa http://downloads.emperorlinux.com/contrib/pywpa
+
+we also use some of anemoclient source snippets
+(all in one included here)
+
+Attack methods:
+---------------
+
+Plain bruteforce (using standard wifi API)
+MAC address takeover
+
+TODO:
+-----
+
+Nicer UI ;)
+
+
+
+Inner Workings
+--------------
+
+So far we are pretty dumb: 
+
+The code is implemented in two parts: actual wireless bruteforcer tool that
+deals with wireless card settings and attempts to set proper encryption 
+credentials
+
+and connectivity verification module that verifies if the connection was
+successeful.
+
+Currently we implement only two verification components: ICMP ping of
+a given IP address (IP range bruteforce to be added later), or
+DHCP responses. 
